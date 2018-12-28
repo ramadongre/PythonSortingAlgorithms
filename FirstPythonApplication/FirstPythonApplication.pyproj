@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>46a0159a-69b0-4549-b87a-5f97bd056bf0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FirstPythonApplication.py</StartupFile>
+    <StartupFile>InsertionSort.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="FirstPythonApplication.py" />
+    <Compile Include="InsertionSort.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
